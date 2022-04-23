@@ -1,5 +1,5 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -22,5 +22,13 @@
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4",
     "webpack": "^5.72.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmaraya1229/textEditor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmaraya1229/textEditor/issues"
+  },
+  "homepage": "https://github.com/jmaraya1229/textEditor#readme"
 }

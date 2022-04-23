@@ -22,7 +22,7 @@ export const putDb = async (content) => {
 
   const store = tx.objectStore('jate');
 
-  const request = store.add({ jate: content });
+  const request = store.put({ content });
 
   const result = await request;
 
@@ -43,7 +43,7 @@ export const getDb = async () => {
 
   const result = await request;
 
-  console.log('results.value', result);
+  console.log('data saved in JATE database', result);
   return result;
 };
 
